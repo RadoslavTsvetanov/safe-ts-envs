@@ -8,7 +8,7 @@ type EnvEntry<T extends string> = {
   handler?: (envName: string) => string;
 };
 
-class EnvManager<T extends string> {
+export class EnvManager<T extends string> {
   private envValues: EnvRecord<T> = {} as EnvRecord<T>;
 
   constructor(entries: EnvEntry<T>[]) {

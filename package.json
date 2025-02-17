@@ -1,7 +1,10 @@
 {
-  "name": "customexpress",
-  "module": "index.ts",
+  "name": "safe-envs-mk-3",
+  "module": "env.ts",
   "type": "module",
+  "main": "lib/env.js",
+  "version":"1.0.1",
+  "types": "lib",
   "devDependencies": {
     "@types/bun": "latest"
   },
